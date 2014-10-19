@@ -8,7 +8,7 @@
         },
 
         //检测所用终端
-        ua = window.navigator.userAgent.toLowerCase(), 
+        ua = window.navigator.userAgent.toLowerCase(),
         isAndroid = /android/i.test(ua), 
         isIOS = /iphone|ipad|ipod/i.test(ua), 
 
