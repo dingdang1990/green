@@ -31,6 +31,7 @@
 
             }, 
             render: function() {
+                //登陆时间？
                 setTimeout(function() {
                     b.loading.hide(), b.index.show()
                 }, 1000)

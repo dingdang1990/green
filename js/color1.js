@@ -16,7 +16,9 @@
             box.find(span).eq(h).css("background-color", j[1]).data("type", "a");
 
 
-        },getColor: function(a) {
+        },
+        //干扰色方法
+        getColor: function(a) {
             var b = [   
                         Math.round(Math.random() * a), 
                         Math.round(Math.random() * a), 
@@ -24,7 +26,9 @@
                     ], 
                 c = "rgb(" + b.join(",") + ")";
             return [b, c]
-        },getLvColor: function(a) {
+        },
+        //目标颜色方法
+        getLvColor: function(a) {
             var b = this.d, c = _.map(a, function(a) {
                 return a + b + 10
             }), 
